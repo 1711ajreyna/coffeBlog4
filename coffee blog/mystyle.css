@@ -1,0 +1,120 @@
+/*global*/
+*{
+    margin:10px;
+    padding:5px;
+    text-align: center;
+}
+body{
+    font-family: arial;
+}
+p{
+    line-height: 2;
+}
+img{
+    max-width: 100%;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin-right: 2px;
+}
+/*utilities*/
+.site-init{
+    background-image: url(./img/banner.jpg);
+    background-size: cover;
+    height:400px;
+    text-align: center;
+    color: white;
+}
+.btn{
+    display: block;
+    width: 180px;
+    background-color: rgb(170, 18, 18);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    text-transform: Uppercase;
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 20px;
+}
+.container{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.header-flex{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+}
+.secondary-header{
+    background-color: black;
+    color: white;
+}
+/*main*/
+.main{
+    width: 60%;
+    margin-right: 20px;
+}
+/*blog*/
+.blogContainer{
+    margin-top: 20px;
+}
+.blogContainer p{
+    margin: 20px;
+}
+.blogContainer h3{
+    margin: 20px;
+}
+.blogContainer .btn{
+    background-color: black;
+}
+#aboutUs{ 
+    text-align: center;
+
+}
+/*footer*/
+.footer{
+    position: absolute;
+    text-align: center;
+    height:80px;
+    background-color: black;
+    color:white;
+    width: 90%;
+    text-decoration: none;
+}
+/*contact*/
+.form-container{
+    display: flex;
+    flex-direction: column;
+}
+.form-inputs{
+    background-color: white;
+    padding: 20px;
+    margin-top: -50px;
+}
+.form-inputs .btn{
+    background-color: black;
+    padding: 10px;
+    font-size: 14px;
+    width: 200px;
+}
+.form-inputs div{
+    margin: 20px;
+}
+.form-inputs input,
+.form-input textarea{
+    width: 70%;
+    padding: 5px;
+}
+.form-inputs label{
+    display:inline-block;
+    width: 80px;
+}
